@@ -1,0 +1,19 @@
+[project]
+name = "dqn-ablation"
+version = "0.1.0"
+description = "DQN ablation study on Atari: Vanilla → Double → Dueling → PER"
+requires-python = ">=3.11"
+dependencies = [
+    "torch>=2.2.0",
+    "gymnasium[atari]>=0.29.1",
+    "ale-py>=0.9.2",
+    "opencv-python-headless>=4.9.0",
+    "numpy>=1.26.0",
+    "matplotlib>=3.8.0",
+    "pyyaml>=6.0.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipython>=8.0.0",
+]
