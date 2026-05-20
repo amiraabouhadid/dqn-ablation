@@ -13,7 +13,7 @@ src/env/           # Full Atari preprocessing stack (Mnih et al. 2015)
 train.py           # Train a single agent
 evaluate.py        # Greedy evaluation of a trained model
 ablation.py        # Run all 4 agents + generate all paper figures
-paper/report.md    # Mini research paper (fill results after training)
+paper/report.md    # Mini research paper 
 ```
 
 ## Setup
@@ -76,7 +76,7 @@ results/
 
 ## Paper
 
-See `paper/report.md` — fill in the `[fill]` placeholders after training.
+See `paper/report.md` 
 
 ## References
 

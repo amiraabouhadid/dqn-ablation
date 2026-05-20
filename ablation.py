@@ -148,7 +148,6 @@ def main():
     )
 
     print(f"\nAll plots saved to {plots_dir}/")
-    print("Next step: fill in results/plots paths in paper/report.md")
 
 
 if __name__ == "__main__":
